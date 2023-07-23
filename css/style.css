@@ -1,0 +1,43 @@
+body{
+    font-family: Raleway, sans-serif ;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+}
+
+
+
+
+.header-logo{
+color: #4D5AE5;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.header-logo-accent{
+   color:  #2E2F42;
+}
+.header-menu-link{
+    color:  #404BBF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.socials-link{
+        color:  #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
