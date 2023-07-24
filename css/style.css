@@ -1,5 +1,7 @@
 body{
     font-family: Raleway, sans-serif ;
+    background-color:  #FFF;
+    color:  #2E2F42;
 }
 .link{
     text-decoration: none;
@@ -7,9 +9,12 @@ body{
 .list{
     list-style-type: none;
 }
+:root{
+    --color-hero-footer: #2E2F42;
+}
 
 
-
+/*HEADER*/
 
 .header-logo{
 color: #4D5AE5;
@@ -25,19 +30,86 @@ text-transform: uppercase;
 }
 .header-menu-link{
     color:  #404BBF;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
 }
 .socials-link{
         color:  #434455;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+/*HERO*/
+
+.hero{
+    background-color:  var(--color-hero-footer);
+}
+.hero-title{
+        color:  #FFF;
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 10.71;
+        letter-spacing: 0.02em;
+}
+
+
+.hero-button{
+    color:  #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+
+}
+
+/*ADVANTAGE*/
+
+.advantage-title{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.advantage-description{
+     color:  #434455;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*ABOUT_US*/
+.about_us-title{
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.about_us-img{
+    
 }
