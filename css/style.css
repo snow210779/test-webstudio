@@ -1,5 +1,5 @@
 body{
-    font-family: Raleway, sans-serif ;
+    font-family: Roboto, sans-serif ;
     background-color:  #FFF;
     color:  #2E2F42;
 }
@@ -29,25 +29,34 @@ text-transform: uppercase;
    color:  #2E2F42;
 }
 .header-menu-link{
-    color:  #404BBF;
-        font-family: Roboto, sans-serif;
+        color:  #404BBF;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        
 }
+.header-menu-link:hover{
+    color: chartreuse;
+}
+.header-menu-link:focus{
+    color: rgb(78, 201, 74);
+}
+
 .socials-link{
         color:  #434455;
-        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-
+.socials-link:hover{
+    color: chocolate;
+}
+.socials-link:focus{
+    color: darkorange;
+}
 /*HERO*/
 
 .hero{
@@ -56,7 +65,6 @@ text-transform: uppercase;
 .hero-title{
         color:  #FFF;
         text-align: center;
-        font-family: Roboto, sans-serif;
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
@@ -67,20 +75,20 @@ text-transform: uppercase;
 
 .hero-button{
     color:  #FFF;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
-
+}
+.hero-button:is(:hover,:focus){
+    color: chartreuse;
 }
 
 /*ADVANTAGE*/
 
 .advantage-title{
-    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -91,7 +99,6 @@ text-transform: uppercase;
 
 .advantage-description{
      color:  #434455;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -99,10 +106,9 @@ text-transform: uppercase;
     letter-spacing: 0.02em;
 }
 
-/*ABOUT_US*/
+/*--------ABOUT_US------------*/
 .about_us-title{
         text-align: center;
-        font-family: Roboto, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -110,6 +116,74 @@ text-transform: uppercase;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
-.about_us-img{
-    
+/*.about_us-img{
+}*/
+
+/*--------TEAM------------*/
+.team {}
+
+.team-title {
+        color: var(--color-hero-footer);
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-link {}
+
+.team-subtitle {
+    color: var(--color-hero-footer);
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.team-profession {
+        color:  #434455;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/*--------FOOTER-WEB--------*/
+.footer_web {
+    background-color: var(--color-hero-footer);
+}
+
+.footer_web-logo {
+        color:  #4D5AE5;
+        font-family: Raleway, sans-serif; 
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.footer_web-logo-accent {
+    color:  #F4F4FD;
+}
+
+.footer_web-text {
+        color:  #F4F4FD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
