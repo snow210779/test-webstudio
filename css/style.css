@@ -29,7 +29,7 @@ text-transform: uppercase;
    color:  #2E2F42;
 }
 .header-menu-link{
-        color:  #404BBF;
+        color: #2E2F42;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -37,14 +37,14 @@ text-transform: uppercase;
         letter-spacing: 0.02em;
 }
 .header-menu-link:hover{
-    color: chartreuse;
+    color: #404BBF;
 }
 .header-menu-link:focus{
-    color: rgb(78, 201, 74);
+    color: #404BBF;
 }
 
 .socials-link{
-        color:  #434455;
+        color: #434455;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -52,10 +52,10 @@ text-transform: uppercase;
         letter-spacing: 0.02em;
 }
 .socials-link:hover{
-    color: chocolate;
+    color: #404BBF;
 }
 .socials-link:focus{
-    color: darkorange;
+    color: #404BBF;
 }
 /*HERO*/
 
@@ -81,9 +81,10 @@ text-transform: uppercase;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 .hero-button:is(:hover,:focus){
-    color: chartreuse;
+    color:#404BBF;
 }
 
 /*ADVANTAGE*/
@@ -133,11 +134,11 @@ text-transform: uppercase;
         text-transform: capitalize;
 }
 
-.team-list {}
+/*.team-list {}
 
 .team-item {}
 
-.team-link {}
+.team-link {}*/
 
 .team-subtitle {
     color: var(--color-hero-footer);
@@ -187,3 +188,55 @@ text-transform: uppercase;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+/*-----PORTFOLIO-------*/
+
+.portfolio-header-logo{
+        color: #4D5AE5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.portfolio-header-logo-accent{
+    color: var(--color-hero-footer);
+
+}
+
+.portfolio-header-link{
+        color: var(--color-hero-footer);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.portfolio-header-link:is(:hover,:focus){
+    color: #404BBF;
+}
+
+.portfolio-address-link{
+        color: #434455;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+.portfolio-address-link:is(:hover,:focus){
+    color: #404BBF;
+}
+.portfolio-button-link{
+        color:  #4D5AE5;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+
