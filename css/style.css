@@ -121,7 +121,7 @@ text-transform: uppercase;
 }*/
 
 /*--------TEAM------------*/
-.team {}
+/*.team {}*/
 
 .team-title {
         color: var(--color-hero-footer);
@@ -189,7 +189,7 @@ text-transform: uppercase;
         letter-spacing: 0.02em;
 }
 
-/*-----PORTFOLIO-------*/
+/*-----PORTFOLIO HEADER-------*/
 
 .portfolio-header-logo{
         color: #4D5AE5;
@@ -227,8 +227,10 @@ text-transform: uppercase;
         letter-spacing: 0.32px;
 }
 .portfolio-address-link:is(:hover,:focus){
-    color: #404BBF;
+        color: #404BBF;
 }
+
+/*-----PORTFOLIO BUTTON-------*/
 .portfolio-button-link{
         color:  #4D5AE5;
         text-align: center;
@@ -239,4 +241,52 @@ text-transform: uppercase;
         letter-spacing: 0.04em;
         cursor: pointer;
 }
+
+/*-----PORTFOLIO PROJECTS-------*/
+
+.projects-subtitle{
+        color: var(--color-hero-footer);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.projects-text{
+        color:  #434455;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/*-----PORTFOLIO FOOTER-------*/
+
+.footer_portfolio{
+    background-color: var(--color-hero-footer);
+}
+
+.footer_portfolio-logo{
+        color:  #4D5AE5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.footer_portfolio-logo-accent{
+    color: #F4F4FD;
+}
+
+.footer_portfolio-text{
+        color: #F4F4FD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
 
